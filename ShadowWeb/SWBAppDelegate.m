@@ -15,6 +15,8 @@
 #import "SWBViewController.h"
 #import "ShadowsocksRunner.h"
 
+#import "local.h"
+
 #define kProxyModeKey @"proxy mode"
 
 int polipo_main(int argc, char **argv);
@@ -31,7 +33,7 @@ void polipo_exit();
     if (proxyMode == nil || [proxyMode isEqualToString:@"pac"]) {
         [AppProxyCap setPACURL:@"http://127.0.0.1:8090/proxy.pac"];
     } else if ([proxyMode isEqualToString:@"global"]) {
-        [AppProxyCap setProxy:AppProxy_SOCKS Host:@"127.0.0.1" Port:1080];
+        [AppProxyCap setProxy:AppProxy_SOCKS Host:@"127.0.0.1" Port:3333];
     } else{
         [AppProxyCap setNoProxy];
     }

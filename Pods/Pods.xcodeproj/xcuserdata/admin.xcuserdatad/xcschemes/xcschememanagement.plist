@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-ShadowsocksX.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-libshadowsocks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-shadowsocks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-shadowsocks_sysconf.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>libsodium.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4A713D709EB9C0F99586AB01BE3ECFEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>56A583EC7E53BB9D56215A0444353DDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC8F0E77D5D9711DAA1D3A48B8BF3A71</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE6CC42523F153F54C076286D43E69AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D627007DC29AF76F330845718B9982AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

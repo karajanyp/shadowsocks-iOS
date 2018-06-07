@@ -69,7 +69,7 @@ const long RFC2445_DURATION_FIELD_UNITS[RFC2445_DURATION_FIELD_UNITS_LEN] = {
     _location = location;
     _organizer = organizer;
     _attendees = attendees;
-    _description = description;
+    _idescription = description;
     _latitude = latitude;
     _longitude = longitude;
   }
@@ -94,7 +94,7 @@ const long RFC2445_DURATION_FIELD_UNITS[RFC2445_DURATION_FIELD_UNITS_LEN] = {
   [ZXParsedResult maybeAppend:self.location result:result];
   [ZXParsedResult maybeAppend:self.organizer result:result];
   [ZXParsedResult maybeAppendArray:self.attendees result:result];
-  [ZXParsedResult maybeAppend:self.description result:result];
+  [ZXParsedResult maybeAppend:self.idescription result:result];
   return result;
 }
 

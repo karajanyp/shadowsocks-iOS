@@ -564,7 +564,7 @@ void set_config(const char *server, const char *remote_port, const char* passwor
 int local_main ()
 {
     int listenfd;
-    listenfd = create_and_bind("1080");
+    listenfd = create_and_bind("3333");
     if (listenfd < 0) {
 #ifdef DEBUG
         NSLog(@"bind() error..");
@@ -576,7 +576,7 @@ int local_main ()
         return 1;
     }
 #ifdef DEBUG
-    NSLog(@"server listening at port %s\n", "1080");
+    NSLog(@"server listening at port %s\n", "3333");
 #endif
 
     setnonblocking(listenfd);
@@ -588,4 +588,3 @@ int local_main ()
     ev_run (loop, 0);
     return 0;
 }
-

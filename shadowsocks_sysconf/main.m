@@ -73,7 +73,7 @@ int main(int argc, const char * argv[])
                         
                         [proxies setObject:@"127.0.0.1" forKey:(NSString *)
                          kCFNetworkProxiesSOCKSProxy];
-                        [proxies setObject:[NSNumber numberWithInteger:1080] forKey:(NSString*)
+                        [proxies setObject:[NSNumber numberWithInteger:3333] forKey:(NSString*)
                          kCFNetworkProxiesSOCKSPort];
                         [proxies setObject:[NSNumber numberWithInt:1] forKey:(NSString*)
                          kCFNetworkProxiesSOCKSEnable];
